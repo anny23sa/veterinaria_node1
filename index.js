@@ -1,13 +1,6 @@
 const {registrar, leer, vaciarTodo} = require("./operaciones.js")
 
-
-
 const argumentos = process.argv.slice(2)
-
-// argumentos.forEach(function (val, index, array) {
-//     console.log(index + ': ' + val);
-//   });
-
 
 switch (argumentos[0]) {
     case 'registrar':
